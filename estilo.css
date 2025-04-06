@@ -1,0 +1,101 @@
+body{
+background-color: bisque;
+font-family: Arial, Comic Sans MS;
+font-size: 1em;
+
+}
+
+h1{
+font-size: 4em;
+color: cadetblue;
+text-align: center;
+}
+h4{
+font-size: 1.5em;
+text-align: justify;
+}
+h2{
+font-size: 2.7em;
+text-align: justify;
+color: cadetblue;
+margin: 80px;
+}
+h3{
+font-size: 1.5em;
+margin: 40px;
+}
+img{
+width: 100%;
+  max-width: 700px;   height: auto;
+margin: 80px;
+}
+
+.menu{
+float: left;
+
+}
+ul.menu{
+width:130px;
+list-style:none;
+margin: 0;
+padding: 0;
+border: 1px solid cadetblue;
+border-bottom: none;
+}
+ul.menu li{
+border-bottom: 1px solid cadetblue;
+border-top: 1px solid cadetblue;
+background: lightblue;
+}
+ul.menu li a{
+padding: .2em 0 .2em .5em;
+display: block;
+text-decoration: none;
+color: black;
+}
+section{
+ margin-left: 220px; 
+  padding: 20px;
+}
+ul.catalogo {
+list-style-type: square;
+font-size: 1.1em;
+margin: 60px;
+}
+ul.servicio{
+font-size: 1.1em;
+list-style-type: none;
+}
+form {
+    width: 50%;
+    margin: 0 auto;
+    background: bisque;
+    padding: 20px;
+    border: 10px;
+    
+}
+
+
+label {
+    width: 30%;
+    font-weight: bold;
+
+}
+
+input, textarea {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid grey;
+    
+}
+
+textarea {
+    resize: none; 
+}
+button{
+display: block;
+font-weight: bold;
+}
+footer{
+clear: both;
+}

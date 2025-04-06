@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>El refugio del Saber</title>
+    <link>https://Beronike.github.io/</link>
+    <description>Es una pagina de una biblioteca</description>
+    <language>es</language>
+    <item>
+      <title>Bienvenidos al refugio del saber</title>
+      <link>https://Beronike.github.io/#inicio</link>
+      <description>Nos presenta la biblioteca.</description>
+    </item>
+    <item>
+      <title>Catálogo de libros</title>
+      <link>https://Beronike.github.io/#catalogo</link>
+      <description>Catalogo de libros.</description>
+    </item>
+    <item>
+      <title>Servicios ofrecidos</title>
+      <link>https://Beronike.github.io/#servicios</link>
+      <description>Nos muestra que podemos encontrar en la biblioteca.</description>
+    </item>
+    <item>
+      <title>Formulario de contacto</title>
+      <link>https://Beronike.github.io/#contacto</link>
+      <description>Contiene el formulario de contacto.</description>
+    </item>
+
+  </channel>
+</rss>
