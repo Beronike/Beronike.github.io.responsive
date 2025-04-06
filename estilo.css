@@ -31,7 +31,9 @@ margin: 80px;
 }
 
 .menu{
-float: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
 }
 ul.menu{
@@ -54,7 +56,7 @@ text-decoration: none;
 color: black;
 }
 section{
- margin-left: 220px; 
+ margin: 20px; 
   padding: 20px;
 }
 ul.catalogo {
@@ -98,4 +100,33 @@ font-weight: bold;
 }
 footer{
 clear: both;
+}
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul.menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  section {
+    margin: 10px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  h1, h2, h3, h4 {
+    text-align: center;
+    margin: 10px;
+  }
+
+  img {
+    margin: 10px auto;
+    max-width: 100%;
+  }
 }
